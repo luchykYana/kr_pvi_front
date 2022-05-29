@@ -1,0 +1,31 @@
+.form {
+    margin: 80px 460px;
+    width: 600px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.form input {
+    background-color: #5bccf6;
+    border: none;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.form input::placeholder {
+    color: white;
+}
+
+.form button {
+    background-color: #5bccf6;
+    border: none;
+    color: #030e12;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.form button:hover {
+    background-color: #fcde67;
+    color: #030e12;
+}

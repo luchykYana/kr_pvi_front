@@ -1,0 +1,29 @@
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #5bccf6;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.header a {
+    color: #fae5df;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+
+.header a[class='active'] {
+    color: #030e12;
+}
+
+.f40 {
+    font-size: 40px;
+}
+
+.f60 {
+    font-size: 60px;
+}

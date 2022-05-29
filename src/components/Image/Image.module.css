@@ -1,0 +1,19 @@
+.card {
+    width: 430px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.card > img {
+    margin-bottom: 10px;
+}
+
+.card button {
+    border: none;
+    border-radius: 15px;
+    background-color: #5bccf6;
+    color: #030e12;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
