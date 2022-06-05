@@ -6,10 +6,10 @@ const Header = () => {
     return (
         <div className={`${css.header}`}>
             <NavLink to={'/'}>
-                <div className={`${css.f60}`}>Images</div>
+                <div className={`${css.f60}`}>Nature</div>
             </NavLink>
             <NavLink to={'admin'}>
-                <div className={`${css.f40}`}>Are you admin?</div>
+                <div className={`${css.f40}`}>Admin</div>
             </NavLink>
         </div>
     );

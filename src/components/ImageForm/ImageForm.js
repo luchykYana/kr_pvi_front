@@ -35,33 +35,27 @@ const ImageForm = () => {
 
     return (
         <Form onSubmit={handleSubmit(submit)} className={`${css.form}`}>
-            <Form.Control type="text" placeholder="Paste url..." {...register('image')}/>
+            <div className={`${css.title}`}>Add new image:</div>
+            <Form.Group className={`${css.dFlex} ${css.inputs}`}>
+                <Form.Label>URL:</Form.Label>
+                <Form.Control type="text" {...register('image')}/>
+            </Form.Group>
             {errors.image && <Alert variant={'warning'}>{errors.image.message}</Alert>}
 
-            <Form.Group className={`${css.dFlex}`}>
-                <Form.Label>Tag 1:</Form.Label>
+            <Form.Group className={`${css.dFlex} ${css.inputs}`}>
+                <Form.Label>Name:</Form.Label>
                 <Form.Control type="text" {...register('tag1')}/>
             </Form.Group>
             {errors.tag1 && <Alert variant={'warning'}>{errors.tag1.message}</Alert>}
 
-            <Form.Group className={`${css.dFlex}`}>
-                <Form.Label>Tag 2:</Form.Label>
+            <Form.Group className={`${css.dFlex} ${css.inputs}`}>
+                <Form.Label>Name: </Form.Label>
                 <Form.Control type="text" {...register('tag2')} defaultValue={' '}/>
             </Form.Group>
 
-            <Form.Group className={`${css.dFlex}`}>
-                <Form.Label>Tag 3:</Form.Label>
+            <Form.Group className={`${css.dFlex} ${css.inputs}`}>
+                <Form.Label>Name: </Form.Label>
                 <Form.Control type="text" {...register('tag3')} defaultValue={' '}/>
-            </Form.Group>
-
-            <Form.Group className={`${css.dFlex}`}>
-                <Form.Label>Tag 4:</Form.Label>
-                <Form.Control type="text" {...register('tag4')} defaultValue={' '}/>
-            </Form.Group>
-
-            <Form.Group className={`${css.dFlex}`}>
-                <Form.Label>Tag 5:</Form.Label>
-                <Form.Control type="text" {...register('tag5')} defaultValue={' '}/>
             </Form.Group>
 
             <Button variant="primary" type="submit">

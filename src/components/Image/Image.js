@@ -14,7 +14,7 @@ const Image = ({image, setText}) => {
     return (
         <div className={`${css.card}`}>
             <img src={image?.image} alt={image?.tags[0]} width='400px'/>
-            {image?.tags.map(tag => <button onClick={putTag}>#{tag}</button>)}
+            {image?.tags.map(tag => <button onClick={putTag}>{tag}</button>)}
         </div>
     );
 };

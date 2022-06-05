@@ -1,23 +1,23 @@
 .header {
     width: 100%;
     height: 100px;
-    background-color: #5bccf6;
+    background-color: #04202C;
     position: fixed;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 0 80px;
 }
 
 .header a {
-    color: #fae5df;
+    color: #c9d1c8;
     text-decoration: none;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Caveat', cursive;
     font-weight: bold;
 }
 
 .header a[class='active'] {
-    color: #030e12;
+    color: #5b7065;
 }
 
 .f40 {
