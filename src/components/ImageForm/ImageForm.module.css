@@ -1,8 +1,8 @@
 .form {
-    margin: 18px 465px;
-    width: 600px;
-    background-color: white;
-    padding: 20px;
+    margin: 50px 515px;
+    width: 500px;
+    padding: 40px;
+    border: 5px solid white;
     border-radius: 20px;
 }
 
@@ -16,26 +16,25 @@
 }
 
 .form input {
-    background-color: #5bccf6;
+    background-color: #ffffff;
     border: none;
     margin-bottom: 15px;
     font-size: 20px;
 }
 
 .form input::placeholder {
-    color: white;
+    color: #ee4c7c;
 }
 
 .form button {
-    background-color: #5bccf6;
+    background-color: #9a1750;
     border: none;
-    color: #030e12;
+    color: #e3bfc3;
     font-size: 20px;
-    margin-bottom: 10px;
 }
 
 .form button:hover {
-    background-color: #fcde67;
+    background-color: #ee4c7c;
     color: #030e12;
 }
 

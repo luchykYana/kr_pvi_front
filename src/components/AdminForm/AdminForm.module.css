@@ -1,31 +1,46 @@
 .form {
-    margin: 80px 460px;
-    width: 600px;
-    background-color: white;
+    margin: 80px 585px;
+    width: 350px;
     padding: 20px;
-    border-radius: 20px;
+    font-size: 20px;
+    border: 5px solid white;
+    border-radius: 15px;
 }
 
 .form input {
-    background-color: #5bccf6;
-    border: none;
-    margin-bottom: 15px;
+    width: 200px;
+    background-color: #e3e2df;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 20px;
+    border: 1px solid #9a1750;
 }
 
 .form input::placeholder {
-    color: white;
+    color:  #e3bfc3;
 }
 
 .form button {
-    background-color: #5bccf6;
+    width: 200px;
+    height: 40px;
+    background-color: #9a1750;
     border: none;
-    color: #030e12;
+    color: white;
     font-size: 20px;
     margin-bottom: 20px;
+    margin-left: 100px;
+    margin-top: 10px;
 }
 
 .form button:hover {
-    background-color: #fcde67;
+    background-color: #ee4c7c;
     color: #030e12;
+}
+
+.dFlex {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: space-between;
+    color: #9a1750;
 }

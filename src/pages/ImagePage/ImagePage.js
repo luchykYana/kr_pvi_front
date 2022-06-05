@@ -4,6 +4,8 @@ import {Form} from 'react-bootstrap';
 import {Images} from '../../components';
 import {imageService} from '../../services';
 
+import css from './ImagePage.module.css';
+
 const ImagePage = () => {
     const [images, setImages] = useState([]);
     const [text, setText] = useState('');
@@ -28,7 +30,7 @@ const ImagePage = () => {
 
     return (
         <div>
-            <Form onChange={findImages}>
+            <Form onChange={findImages} className={`${css.form}`}>
                 <Form.Control type="text" placeholder="Find..." id={'find'}/>
             </Form>
             <Images images={images} setText={setText}/>

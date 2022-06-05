@@ -18,9 +18,5 @@ export const ImageValidator = Joi.object({
     tag2: Joi
         .string(),
     tag3: Joi
-        .string(),
-    tag4: Joi
-        .string(),
-    tag5: Joi
         .string()
 });

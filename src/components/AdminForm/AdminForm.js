@@ -20,8 +20,15 @@ const AdminForm = ({setTrigger}) => {
     return (
         <div>
             <Form onSubmit={submit} className={`${css.form}`}>
-                <Form.Control type="email" placeholder="Enter email..." name='email'/>
-                <Form.Control type="password" placeholder="Enter password..." name='password'/>
+                <div className={`${css.dFlex}`}>
+                    <div>Email:</div>
+                    <Form.Control type="email" placeholder="Enter email..." name='email'/>
+                </div>
+
+                <div className={`${css.dFlex}`}>
+                    <div>Password:</div>
+                    <Form.Control type="password" placeholder="Enter password..." name='password'/>
+                </div>
 
                 <Button variant="primary" type="submit">
                     Submit
